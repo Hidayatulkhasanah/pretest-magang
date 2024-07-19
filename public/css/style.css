@@ -1,0 +1,39 @@
+*{
+    font-family: 'popins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.icon-nav {
+    position: relative;
+    color: #ffffff8c;
+}
+
+.icon-nav:hover {
+    color: white;
+}
+
+.circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    top: 10px;
+    right: 130px;
+}
+
+section {
+    min-height: 80vh;
+}
+
+//style footer//
+footer {
+    position: static;
+    bottom: 0;
+    background-color: #025464;
+    color: white;
+}
